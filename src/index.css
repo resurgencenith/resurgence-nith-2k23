@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'VT323';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/vt323/vt323-regular-webfont.woff") format('woff');
+}
+
+:root {
+  font-family: 'VT323';
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  overflow-x: hidden;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1F1C18;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --n-dark: #1F1C18;
+  --n-red:#8E0E00;
+  --navbar-hover:#095c66;
+
+  --text-color:#fff;
+}

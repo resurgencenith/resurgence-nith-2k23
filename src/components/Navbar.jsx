@@ -6,10 +6,9 @@ import { useState, useEffect } from "react";
 
 
 export default function Navbar() {
-  let scrollDirection = useScrollDirection();
 
   return (
-    <nav className={`navbar ${scrollDirection === "down" ? "hide" : "show"}`}>
+    <nav className={`navbar`}>
         <div className="navbar-container container">
             <input type="checkbox" name="" id=""/>
             <div className="hamburger-lines">

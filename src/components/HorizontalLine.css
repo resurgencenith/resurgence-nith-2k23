@@ -1,0 +1,19 @@
+.line{
+    color: rgb(229, 225, 230);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    scroll-behavior: smooth;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    height: 16px;
+    position: relative;
+    width: 100%;
+    filter: drop-shadow(rgba(255, 215, 77, 0.6) -1px -1px 2px) drop-shadow(rgba(124, 127, 255, 0.6) 1px 1px 2px);
+    margin-top: 0px;
+    margin-bottom: 64px;
+}
+

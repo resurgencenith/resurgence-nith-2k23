@@ -10,6 +10,7 @@ import ContactUs from "../components/ContactUs";
 import WhoAreWe from "../components/WhoAreWe";
 import WhatDoWeDo from "../components/WhatDoWeDo";
 import OurVision from "../components/OurVision";
+import HorizontalLine from "../components/HorizontalLine";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
         </div>
 
         <WhoAreWe />
+        <HorizontalLine/>
         <WhatDoWeDo />
         <OurVision />
 

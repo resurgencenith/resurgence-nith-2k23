@@ -11,8 +11,8 @@ body {
 	Justify-content: center;
 	align-items: center;
 	position: relative;
-	height: 63px;
-	width: 66px;
+	height: 103px;
+	width: 100px;
 	animation: flicker 3s infinite;
 }
 

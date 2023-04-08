@@ -6,13 +6,14 @@
     width: 100%;
     max-height: 500px;
     max-width: 1400px;
-    justify-content: space-around;
-}
-#canvas{
-    padding-left: 3rem;
+    justify-content: space-between;
+    padding: 4rem;
 }
 .flappy_game_text{
     padding-right:3rem;
+}
+#canvas{
+    padding: 4rem;
 }
 .glow_text{
     margin: 0.5rem;

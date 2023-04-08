@@ -6,6 +6,10 @@ import Footer from "../components/Footer";
 import BackgroundParticles from "../components/BackgroundParticles";
 import TetrisComponent from "../components/TetrisComponent";
 import FlappyBirdComponent from "../components/FlappyBirdComponent";
+import ContactUs from "../components/ContactUs";
+import WhoAreWe from "../components/WhoAreWe";
+import WhatDoWeDo from "../components/WhatDoWeDo";
+import OurVision from "../components/OurVision";
 
 export default function Home() {
   return (
@@ -27,18 +31,19 @@ export default function Home() {
               For vibe, for games.
             </div>
           </div>
-
-          {/* <CarAnimation/> */}
-
-
-
           <div className="globe_position">
             <GlobeAnimation />
           </div>
         </div>
 
+        <WhoAreWe />
+        <WhatDoWeDo />
+        <OurVision />
+
         {/* <TetrisComponent/> */}
-        <FlappyBirdComponent/>
+
+        <FlappyBirdComponent />
+        <ContactUs />
         <Footer />
       </div>
     </>

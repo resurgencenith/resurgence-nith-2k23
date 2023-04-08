@@ -18,9 +18,9 @@ export default function Navbar() {
             </div>
             <ul className="menu-items">
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="">About</Link></li>
+                <li><Link to="about">About</Link></li>
                 <li><Link to="team">Team</Link></li>
-                <li><Link to="">Events</Link></li>
+                <li><Link to="events">Events</Link></li>
             </ul>
             <img className="logo" src={logo}/>
         </div>

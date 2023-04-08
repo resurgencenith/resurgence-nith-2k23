@@ -16,10 +16,9 @@
 }
 .glow_text{
     margin: 0.5rem;
-    font-size:3rem;
+    font-size:4rem;
   margin-top:45vh;
   color:white;
-  font-family: 'Merienda', cursive;
   animation-name:glow;
   animation-duration:1s;
   animation-iteration-count:infinite;

@@ -1,0 +1,40 @@
+.flappy_game_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    max-height: 500px;
+    max-width: 1400px;
+    justify-content: space-around;
+}
+#canvas{
+    padding-left: 3rem;
+}
+.flappy_game_text{
+    padding-right:3rem;
+}
+.glow_text{
+    margin: 0.5rem;
+    font-size:3rem;
+  margin-top:45vh;
+  color:white;
+  font-family: 'Merienda', cursive;
+  animation-name:glow;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+}
+.fl{
+    margin: 0.5rem;
+}
+
+@keyframes glow{
+    from{text-shadow:0px 0px 5px #fff,0px 0px 5px #614ad3;}
+    to{text-shadow:0px 0px 20px #fff,0px 0px 20px #614ad3;}
+  }
+
+  .pt-3{
+    padding: 0.5rem;
+    font-size: 2em;
+  }

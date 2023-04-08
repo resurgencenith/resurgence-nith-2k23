@@ -4,6 +4,8 @@ import GlobeAnimation from "../components/GlobeAnimation.jsx";
 import "./Home.scss";
 import Footer from "../components/Footer";
 import BackgroundParticles from "../components/BackgroundParticles";
+import TetrisComponent from "../components/TetrisComponent";
+import FlappyBirdComponent from "../components/FlappyBirdComponent";
 
 export default function Home() {
   return (
@@ -27,13 +29,16 @@ export default function Home() {
           </div>
 
           {/* <CarAnimation/> */}
-          
+
 
 
           <div className="globe_position">
             <GlobeAnimation />
           </div>
         </div>
+
+        {/* <TetrisComponent/> */}
+        <FlappyBirdComponent/>
         <Footer />
       </div>
     </>

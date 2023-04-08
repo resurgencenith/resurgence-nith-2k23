@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Footer.css'
 import { Link } from 'react-router-dom'
 import config from '../utils/config'
 
 
 export default function Footer() {
+
   return (
     <>
 

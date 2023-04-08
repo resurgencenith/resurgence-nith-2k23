@@ -75,7 +75,7 @@
 }
 
 .navbar a:hover{
-    color: #117964;
+    color: var(--n-light-red);
 }
 .navbar.hide{
     top: -6rem;

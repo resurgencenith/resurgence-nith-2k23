@@ -38,3 +38,21 @@
     padding: 0.5rem;
     font-size: 2em;
   }
+
+  @media (max-width: 800px){
+    .flappy_game_box{
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .flappy_game_text{
+        margin: 2rem;
+        text-align: center;
+    }
+    #canvas{
+        padding-left: 0rem;
+    }
+    .pt-3{
+        opacity: 0;
+    }
+  }

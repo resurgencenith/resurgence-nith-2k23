@@ -15,6 +15,7 @@ export default function Footer() {
             <Link to="#" className="link-1">Home&nbsp;</Link>
             <Link to="#">Team &nbsp;</Link>
             <Link to="#">About</Link>
+            <Link to="#">Events</Link>
           </p>
         </div>
         <div className="footer-center">
@@ -28,7 +29,7 @@ export default function Footer() {
           </div>
           <div>
             <i className="fa fa-envelope" />
-            <p><a href="mailto:resurgencenith@gmail.com">resurgencenith@gmail.com</a></p>
+            <p><a href="mailto:resurgencenith@gmail.com">resurgencenith@gmail.com</a><br/>Developed and maintained by Resurgence NITH</p>
           </div>
         </div>
         <div className="footer-right">

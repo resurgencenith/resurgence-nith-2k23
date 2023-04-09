@@ -41,6 +41,7 @@
     border-radius: 16px;
     width: 100vw;
     padding: 16px 24px;
+    height: max-content;
 
     // testing
     margin: auto;
@@ -48,18 +49,17 @@
 
 
     background-color: var(--n-red);
-    
+
     top:200px;
     
-    display: flex;
-    opacity: 1;
-    height: max-content;
-    display: flex;
-    justify-content: center;
-}
-.island_bar{
-    padding: 2rem;
     
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.island_nav{
+    padding: 2rem;
+    display: inline-block;
 }
 .island_nav_item{
 

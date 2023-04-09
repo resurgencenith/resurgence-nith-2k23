@@ -48,14 +48,36 @@ export default function DynamicIsland({ navArrayIds = [] }) {
         </div>
       </div>
 
-      <div id="island">
-        <div className="island_bar">
+      {/* <div id="island">
+        <div className="island_nav">
+            <Link to="/">
+               <div className="island_nav_item">Link</div> 
+            </Link>
+            <Link to="/">
+               <div className="island_nav_item">Link</div> 
+            </Link>
             <Link to="/">
                <div className="island_nav_item">Link</div> 
             </Link>
         </div>
-
-      </div>
+        <div className="lens_wrapper">
+          <div class="lens">
+            <div class="lens_1">
+              <div class="lens_2">
+                <div class="lens_3">
+                  <div class="lens_4">
+                    <div class="lens_5">
+                      <div class="lens_6">
+                        <div class="lens_7"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
     </div>
   );
 }

@@ -39,32 +39,52 @@
 }
 #island{
     border-radius: 16px;
-    width: 100vw;
-    padding: 16px 24px;
+    width: 85vw;
     height: max-content;
 
     // testing
-    margin: auto;
-    position: absolute;
-
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
 
     background-color: var(--n-red);
+    display: none;
 
-    top:200px;
+    top:100px;
     
-    
-    opacity: 1;
     display: flex;
     justify-content: space-between;
+
+    box-shadow: rgba(255, 215, 77, 0.6) -1px -1px 6px, rgba(124, 127, 255, 0.6) 1px 1px 6px;
+
+
 }
 .island_nav{
     padding: 2rem;
+    display: inline;
+}
+.island_nav li{
+    list-style: none;
     display: inline-block;
+    margin-right: 2rem;
+}
+
+.island_lens_wrapper{
+    font-size: 1.3px;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
 }
 .island_nav_item{
-
+    text-decoration: none;
+    font-size: 2rem;
+    color: #FFF;
 }
-
+.init_lens{
+    margin-left: 2.8rem;
+    margin-top: 0.6rem;
+}
 
 //init text
 
@@ -166,15 +186,12 @@ $pink:#F60C46;
   }
 
   .lens{
-    margin-left: 62px;
-    margin-top: 4px;
 
     overflow: hidden;
     width: 25.2em;
     height:25.2em;
     border-top:2px solid #ADACB1;
     border-bottom: 2px solid #211100;
-    position: absolute;
     z-index: 1;
     top:40.5%;
     left:52.8%;

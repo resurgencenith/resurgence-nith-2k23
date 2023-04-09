@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <BackgroundParticles />
-      <DynamicIsland/>
+      {/* <DynamicIsland/> */}
       <Navbar />
       <div className="home">
 

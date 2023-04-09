@@ -6,6 +6,14 @@ export default function DynamicIsland({ navArrayIds = [] }) {
   useEffect(() => {
     let init = document.getElementById("init");
     let island = document.getElementById("island");
+    console.clear()
+    window.addEventListener('scroll', (e)=>{
+        console.log(window.scrollY)
+
+        if(window.scrollY>100){
+            init.style.display = "none";
+        }
+    });
   });
   return (
     <div className="dynamic-island">
@@ -29,15 +37,17 @@ export default function DynamicIsland({ navArrayIds = [] }) {
 
         <div className="init_text">INIT</div>
         <div class="dot-falling"></div>
-        <div className="lens_wrapper">
-          <div class="lens">
-            <div class="lens_1">
-              <div class="lens_2">
-                <div class="lens_3">
-                  <div class="lens_4">
-                    <div class="lens_5">
-                      <div class="lens_6">
-                        <div class="lens_7"></div>
+        <div className="init_lens">
+          <div className="lens_wrapper">
+            <div class="lens">
+              <div class="lens_1">
+                <div class="lens_2">
+                  <div class="lens_3">
+                    <div class="lens_4">
+                      <div class="lens_5">
+                        <div class="lens_6">
+                          <div class="lens_7"></div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -48,27 +58,35 @@ export default function DynamicIsland({ navArrayIds = [] }) {
         </div>
       </div>
 
-      {/* <div id="island">
+      <div id="island">
         <div className="island_nav">
-            <Link to="/">
-               <div className="island_nav_item">Link</div> 
+          <li>
+            <Link to="/" className="island_nav_item">
+              <div className="island_nav_item">Link</div>
             </Link>
-            <Link to="/">
-               <div className="island_nav_item">Link</div> 
+          </li>
+          <li>
+            <Link to="/" className="island_nav_item">
+              <div className="island_nav_item">Link</div>
             </Link>
-            <Link to="/">
-               <div className="island_nav_item">Link</div> 
+          </li>
+          <li>
+            <Link to="/" className="island_nav_item">
+              <div>Link</div>
             </Link>
+          </li>
         </div>
-        <div className="lens_wrapper">
-          <div class="lens">
-            <div class="lens_1">
-              <div class="lens_2">
-                <div class="lens_3">
-                  <div class="lens_4">
-                    <div class="lens_5">
-                      <div class="lens_6">
-                        <div class="lens_7"></div>
+        <div className="island_lens_wrapper">
+          <div className="lens_wrapper_island">
+            <div class="lens">
+              <div class="lens_1">
+                <div class="lens_2">
+                  <div class="lens_3">
+                    <div class="lens_4">
+                      <div class="lens_5">
+                        <div class="lens_6">
+                          <div class="lens_7"></div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -77,7 +95,7 @@ export default function DynamicIsland({ navArrayIds = [] }) {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }

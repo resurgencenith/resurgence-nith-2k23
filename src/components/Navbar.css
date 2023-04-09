@@ -16,13 +16,10 @@
 }
 
 .container{
-    max-width: 1200px;
-    width: 90%;
-    margin: auto;
+    
 }
 
 .navbar{
-    width: 100%;
 
 
     color: var(--n-black);
@@ -32,10 +29,6 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 500ms;
   
-    border: 1px solid rgba(255, 255, 255, 0.125);
-
-    padding-top: 1rem;
-    padding-bottom: 1.2rem;
 }
 
 .navbar-container{
@@ -44,9 +37,8 @@
     height: 64px;
     align-items: center;
     top:0;
-    width: 100%;
-    padding-left: 2rem;
-    padding-right: 5rem;
+    padding: 1rem;
+    margin-right: 2rem;
 }
 
 .menu-items{
@@ -54,8 +46,8 @@
     display: flex;
 }
 .logo{
-  padding: 0.5rem;
-  width: fit-content;
+    padding: 0.5rem;
+  width: 9rem;
   height: 5rem;
     order: 1;
     font-size: 2.3rem;

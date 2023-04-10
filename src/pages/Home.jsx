@@ -12,11 +12,14 @@ import WhatDoWeDo from "../components/WhatDoWeDo";
 import OurVision from "../components/OurVision";
 import HorizontalLine from "../components/HorizontalLine";
 import DynamicIsland from "../components/DynamicIsland";
+import LoadingScreen from "../components/LoadingScreen";
 
 export default function Home() {
   return (
     <>
       <BackgroundParticles />
+      {/* <LoadingScreen/> */}
+      
       {/* <DynamicIsland/> */}
       <Navbar />
       <div className="home">

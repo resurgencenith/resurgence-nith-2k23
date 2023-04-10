@@ -20,10 +20,8 @@
 }
 
 .navbar{
-    position: absolute;
-    margin: auto;
-    width: 100%;
-
+    display: flex;
+    justify-content: center;
     color: var(--n-black);
     opacity: 0.93;
     z-index: 100;
@@ -35,13 +33,17 @@
 }
 
 .navbar-container{
+    position: absolute;
+    margin: auto;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     height: 64px;
     align-items: center;
     top:0;
     padding: 1rem;
-    margin-right: 2rem;
+    margin-top: 2rem;
+
 }
 
 .menu-items{

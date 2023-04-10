@@ -20,12 +20,11 @@ export default function Home() {
       {/* <DynamicIsland/> */}
       <Navbar />
       <div className="home">
-
         <div className="home_main">
           <div className="home_main_title">
-            <div className="home_main_text">
-              <span className="flicker">Res</span>urg{" "}
-              <span className="fast-flicker">ence</span>
+            <div className="home_main_text text_main_size">
+              <span className="flicker text_main_size">Res</span><span>urg{" "}</span>
+              <span className="fast-flicker text_main_size">ence</span>
             </div>
             <div
               className="home_main_info glitch"
@@ -40,14 +39,19 @@ export default function Home() {
         </div>
 
         <WhoAreWe />
-        <HorizontalLine/>
-        <WhatDoWeDo />
-        <OurVision />
+        <HorizontalLine />
 
-        {/* <TetrisComponent/> */}
+        <WhatDoWeDo />
+        <HorizontalLine />
+
+        <OurVision />
+        <HorizontalLine />
 
         <FlappyBirdComponent />
+        <HorizontalLine />
         <ContactUs />
+        <HorizontalLine />  
+
         <Footer />
       </div>
     </>

@@ -4,20 +4,21 @@
     justify-content: center;
     margin: auto;
     width: 100%;
-    max-height: 500px;
-    max-width: 1400px;
+    height: 100vh;
     justify-content: space-between;
     padding: 4rem;
 }
 .flappy_game_text{
     padding-right:3rem;
+    margin-top:-8rem;
 }
 #canvas{
-    padding: 4rem;
+    padding: 1rem;
+    margin-right: 16%;
 }
 .glow_text{
     margin: 0.5rem;
-    font-size:4rem;
+    font-size:12rem;
   margin-top:45vh;
   color:white;
   animation-name:glow;

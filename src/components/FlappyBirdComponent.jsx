@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import config from "../App.config";
 import FlappyBird from "../JSComponenets/flappy_bird/game";
 import "./FlappyBirdComponent.css";
 
@@ -15,6 +16,8 @@ export default function FlappyBirdComponent() {
           data-text="For vibe, for games."
         >
           With the classic flappy bird!
+          <br/>
+          {config.about}
         </div>
       </div>
       <canvas id="canvas" width="276" height="414"></canvas>

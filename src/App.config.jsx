@@ -35,7 +35,7 @@ let config = {
       icon: "fas fa-gamepad",
     },
     {
-      title: "Development",
+      title: "Web Development",
       icon: "fas fa-code",
     },
     {

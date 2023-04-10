@@ -1,22 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@import "tailwindcss/base";
-
-@import "tailwindcss/components";
-
-@import "tailwindcss/utilities";
-
-
 .card{
-    width:100%;
-    padding:20px;
+    padding-top:30%;
+    padding-bottom: 30%;
+    
     box-shadow: rgba(255, 215, 77, 0.6) -1px -1px 6px, rgba(124, 127, 255, 0.6) 1px 1px 6px;
-    padding-top:5%;
-    padding-bottom: 5%;
+    
     border-radius: 16px;
-    margin:2rem;
+    margin-right:4rem;
+    margin-top: 2rem;
+
 
     display: flex;
     flex-direction: column;
@@ -35,6 +26,9 @@
     align-items: center;
     
 }
+.card_outer{
+    width:100%;
+}
 
 .tiles{
     display:flex;
@@ -49,7 +43,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 4rem;
+    padding: 4rem;
 }
 
 .text-intro{
@@ -58,11 +52,13 @@
 
 .text-overview{
     font-size:12rem;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 }
 .whatdowedo-text{
     font-size:24px;
-    margin-bottom: 7rem;
+    margin-bottom: 2rem;
+    width: 65%;
+
 }
 .card_title{
     text-align: center;
@@ -74,4 +70,7 @@
     width: 5rem;
     height: 5rem;
     margin-bottom: 2rem;
+}
+.w-50{
+    width: 65%;
 }

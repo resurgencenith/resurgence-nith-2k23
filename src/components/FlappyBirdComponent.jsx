@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import config from "../App.config";
 import FlappyBird from "../JSComponenets/flappy_bird/game";
+import FadeInFromBottom from "./AnimationComponents/FadeInFromBottom";
 import "./FlappyBirdComponent.css";
 
 export default function FlappyBirdComponent() {
@@ -10,7 +11,11 @@ export default function FlappyBirdComponent() {
   return (
     <div className="flappy_game_box">
       <div className="flappy_game_text">
-        <span className="glow_text">GAME ON</span>
+        <span className="glow_text">
+          <FadeInFromBottom>
+          GAME ON
+          </FadeInFromBottom>
+          </span>
         <div
           className="home_main_info glitch pt-3"
           data-text="For vibe, for games."

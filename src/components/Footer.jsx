@@ -15,8 +15,8 @@ export default function Footer() {
           <p className="footer-links">
             <Link to="/" className="link-1">Home&nbsp;</Link>
             <Link to="team">Team &nbsp;</Link>
-            <Link to="about">About</Link>
-            <Link to="events">Events</Link>
+            {/* <Link to="about">About</Link>
+            <Link to="events">Events</Link> */}
           </p>
         </div>
         <div className="footer-center">

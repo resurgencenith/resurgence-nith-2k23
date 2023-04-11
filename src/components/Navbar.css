@@ -16,7 +16,7 @@
 }
 
 .navbar-container{
-    position: relative;
+    position: absolute;
     margin: auto;
     width: 95%;
     display: flex;

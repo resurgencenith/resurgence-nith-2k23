@@ -4,18 +4,11 @@ import GlobeAnimation from "../components/GlobeAnimation.jsx";
 import "./Home.scss";
 import Footer from "../components/Footer";
 import BackgroundParticles from "../components/BackgroundParticles";
-import TetrisComponent from "../components/TetrisComponent";
 import FlappyBirdComponent from "../components/FlappyBirdComponent";
 import ContactUs from "../components/ContactUs";
-import WhoAreWe from "../components/WhoAreWe";
 import WhatDoWeDo from "../components/WhatDoWeDo";
-import OurVision from "../components/OurVision";
 import HorizontalLine from "../components/HorizontalLine";
-import DynamicIsland from "../components/DynamicIsland";
-import LoadingScreen from "../components/LoadingScreen";
 import KrotosImage from "../components/KrotosImage.jsx";
-import BackgroundMusic from "../components/BackgroundMusic";
-import { motion, useAnimation } from "framer-motion";
 
 
 export default function Home() {
@@ -23,7 +16,6 @@ export default function Home() {
     <>
       <BackgroundParticles />
       {/* <LoadingScreen/> */}
-      <BackgroundMusic/>
       {/* <DynamicIsland/> */}
       <Navbar />
       <div className="home">
@@ -59,8 +51,8 @@ export default function Home() {
         <WhatDoWeDo />
         <HorizontalLine />
 
-        <OurVision />
-        <HorizontalLine />
+        {/* <OurVision />
+        <HorizontalLine /> */}
 
         <FlappyBirdComponent />
         <HorizontalLine />

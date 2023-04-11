@@ -18,25 +18,25 @@ export default function Navbar() {
         </FadeInFromTop>
         <ul className="menu-items">
             <li>
-          {/* <FadeInFromTop delay="0.7"> */}
+          <FadeInFromTop delay="0.7">
               <Link to="/" smooth={true} href="#">Home</Link>
-          {/* </FadeInFromTop> */}
+          </FadeInFromTop>
             </li>
-          <FadeInFromTop delay="0.9">
+          {/* <FadeInFromTop delay="0.9">
             <li>
               <Link to="about">About</Link>
             </li>
-          </FadeInFromTop>
-          <FadeInFromTop delay="1.1">
+          </FadeInFromTop> */}
+          <FadeInFromTop delay="0.9">
             <li>
               <Link to="team">Team</Link>
             </li>
           </FadeInFromTop>
-          <FadeInFromTop delay="1.3">
+          {/* <FadeInFromTop delay="1.3">
             <li>
               <Link to="events">Events</Link>
             </li>
-          </FadeInFromTop>
+          </FadeInFromTop> */}
         </ul>
       </div>
   );

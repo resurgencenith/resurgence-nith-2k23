@@ -25,7 +25,15 @@ let config = {
         {},
       ],
     },
-    third_year: {},
+    third_year: {
+      cc:[
+        {
+
+        },{
+          
+        }
+      ]
+    },
     second_year: {},
     first_year: {},
   },

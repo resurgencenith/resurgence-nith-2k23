@@ -1,0 +1,29 @@
+.team{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100vw;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.sec{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.cc{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.cc_inner{
+    margin: 2rem;
+}

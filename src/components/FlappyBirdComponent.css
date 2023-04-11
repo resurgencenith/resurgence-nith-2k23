@@ -9,12 +9,17 @@
     padding: 4rem;
 }
 .flappy_game_text{
-    padding-right:3rem;
-    margin-top:-8rem;
+    width: 60%;
 }
 #canvas{
-    padding: 1rem;
-    margin-right: 16%;
+    border-radius: 16px;
+    box-shadow: rgba(255, 215, 77, 0.6) -1px -1px 6px, rgba(124, 127, 255, 0.6) 1px 1px 6px;
+
+}
+.flappy_canvas_wrapper{
+    width: 40%;
+    justify-content: center;
+    align-items: center;
 }
 .glow_text{
     margin: 0.5rem;

@@ -5,9 +5,13 @@ import Team from "./pages/Team";
 import PathNotFound from "./pages/PathNotFound";
 import About from "./pages/About";
 import Events from "./pages/Events";
+import BackgroundMusic from "./components/BackgroundMusic";
 
 export default function App() {
   return (
+    <>
+      <BackgroundMusic/>
+
     <BrowserRouter>
       <Routes>
         <Route exact>
@@ -20,5 +24,6 @@ export default function App() {
         <Route path="*" element={<PathNotFound />} />
       </Routes>
     </BrowserRouter>
+    </>
   );
 }

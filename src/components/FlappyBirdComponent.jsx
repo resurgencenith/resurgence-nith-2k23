@@ -24,9 +24,11 @@ export default function FlappyBirdComponent() {
           </div>
         </div>
       </FadeInFromLeft>
+        <div className="flappy_canvas_wrapper">
       <FadeInFromRight>
         <canvas id="canvas" width="276" height="414"></canvas>
       </FadeInFromRight>
+        </div>
     </div>
   );
 }

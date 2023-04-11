@@ -2,6 +2,7 @@ import React from "react";
 import './ContactUs.css'
 import SpiderCanvas from "../models/SpiderCanvas";
 import EarthCanvas from "../models/EarthCanvas";
+import SnackBar from "../utils/Snackbar";
 
 export default function ContactUs() {
   return (
@@ -31,7 +32,9 @@ export default function ContactUs() {
               defaultValue={""}
             />
           </div>
-          <button className="button" type="button" defaultValue="Submit" onClick={()=>{}}>Submit</button>
+          <button className="button" type="button" defaultValue="Submit" onClick={()=>{
+            SnackBar("Response Recorded!")
+          }}>Submit</button>
         </form>
       <div className="earth_wrapper">
         

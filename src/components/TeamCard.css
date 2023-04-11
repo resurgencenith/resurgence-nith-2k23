@@ -8,7 +8,8 @@ body {
 	position:relative;
 	overflow: hidden;
 	text-align:center;
-    max-width: 250px;
+    width: 250px;
+	height: 375px;
     padding: 1.5rem;
 }
 .box:before {

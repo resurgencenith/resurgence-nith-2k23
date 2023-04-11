@@ -1,11 +1,11 @@
 import React from "react";
 import './ContactUs.css'
-import SpiderCanvas from "./Spider/SpiderCanvas";
+import SpiderCanvas from "../models/SpiderCanvas";
+import EarthCanvas from "../models/EarthCanvas";
 
 export default function ContactUs() {
   return (
     <div className="contact_section_container">
-      <div className="contact-container">
         
         <form className="contact-form">
           <div className="heading">
@@ -33,8 +33,10 @@ export default function ContactUs() {
           </div>
           <button className="button" type="button" defaultValue="Submit" onClick={()=>{}}>Submit</button>
         </form>
+      <div className="earth_wrapper">
+        
+        <EarthCanvas/>
       </div>
-      <SpiderCanvas/>
     </div>
   );
 }

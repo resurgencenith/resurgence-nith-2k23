@@ -33,9 +33,6 @@
 .tiles{
     display:flex;
     width:100%;
-    
-
-
 
 }
 .whatdowedo{
@@ -47,7 +44,7 @@
 }
 
 .text-intro{
-    font-size: 32px;
+    font-size: 2em;
 }
 
 .text-overview{
@@ -55,7 +52,7 @@
     margin-bottom: 6rem;
 }
 .whatdowedo-text{
-    font-size:24px;
+    font-size:32px;
     margin-bottom: 2rem;
     width: 65%;
 

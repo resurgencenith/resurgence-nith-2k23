@@ -1,7 +1,8 @@
-let spidergltf = new URL("./earth/",import.meta.url).href
-let earthgltf = new URL("./scene.gltf",import.meta.url).href
+let spidergltf = new URL("./spider/scene.gltf",import.meta.url).href
+let earthgltf = new URL("./planet/scene.gltf",import.meta.url).href
 
 const gltf={
-    spider:spidergltf
+    spider:spidergltf,
+    earth:earthgltf
 }
 export default gltf

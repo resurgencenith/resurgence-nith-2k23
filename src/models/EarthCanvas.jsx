@@ -2,14 +2,16 @@ import React,{Suspense} from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import gltf from './assets/GLTF.jsx'
+import './EarthCanvas.css'
 
 const Earth = () => {
   const earth = useGLTF(gltf.earth);
+  earth.scene.scale.set(2,2,2)
 
-  return <primitive object={spider.scene} />;
+  return <primitive object={earth.scene} />;
 };
 
-export default function SpiderCanvas() {
+export default function EarthCanvas() {
   return (
     <Canvas
       shadows
@@ -22,6 +24,7 @@ export default function SpiderCanvas() {
         far: 200,
         position: [-4, 3, 6],
       }}
+      style={{width:'400px',height:'100%'}} 
     >
       <Suspense fallback={<>loading...</>}>
         <OrbitControls
@@ -30,7 +33,7 @@ export default function SpiderCanvas() {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Spider />
+        <Earth />
 
         <Preload all />
       </Suspense>

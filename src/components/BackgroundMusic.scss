@@ -1,0 +1,40 @@
+:root{
+  --labs-sys-color-volume:#fff
+}
+#volume {
+    position: fixed;
+    left: 2.5vmin;
+    bottom: 2.5vmin;
+    width: 4rem;
+    height: 4rem;
+    display: grid;
+    place-items: center;
+    transition: background .3s ease;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    z-index: 42000;
+    @media(hover){
+      &:hover {
+        background: rgba(0,0,0,.2);
+      }
+    }
+    
+    &.playing {
+      .play {
+        display: block;
+      }
+      .muted {
+        display: none;
+      }
+    }
+    &:not(.playing) {
+      .play {
+        display: none;
+      }
+       .muted {
+         display: block;
+       }
+    }
+  }
+  

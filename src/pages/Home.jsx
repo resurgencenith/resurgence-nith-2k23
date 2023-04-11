@@ -14,17 +14,21 @@ import HorizontalLine from "../components/HorizontalLine";
 import DynamicIsland from "../components/DynamicIsland";
 import LoadingScreen from "../components/LoadingScreen";
 import KrotosImage from "../components/KrotosImage.jsx";
+import BackgroundMusic from "../components/BackgroundMusic";
+import { motion, useAnimation } from "framer-motion";
+
 
 export default function Home() {
   return (
     <>
       <BackgroundParticles />
       {/* <LoadingScreen/> */}
-
+      <BackgroundMusic/>
       {/* <DynamicIsland/> */}
-      <KrotosImage/>
       <Navbar />
       <div className="home">
+
+      
         <div className="home_main">
           <div className="home_hero">
             <div className="home_main_title">
@@ -41,13 +45,15 @@ export default function Home() {
               </div>
             </div>
             <div className="krotos">
-              
+              <KrotosImage/>
             </div>
           </div>
           <div className="globe_position">
             <GlobeAnimation />
           </div>
         </div>
+
+
         <HorizontalLine/>
 
         <WhatDoWeDo />

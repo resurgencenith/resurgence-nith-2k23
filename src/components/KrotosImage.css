@@ -1,17 +1,17 @@
 .krotos_image_wrapper{
-    width: 100vw;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+#krotos_img{
     height: 100vh;
-    position: absolute;
-    top:0%;
-    left: 0%;
+    width: max-content;
+}
+.krotos_image_container{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding: 2rem;
-}
-
-.krotos_img{
-    height: 100%;
-    margin-right: -320px;
-    margin-bottom: -8%;
+    margin-right: -350px;
 }

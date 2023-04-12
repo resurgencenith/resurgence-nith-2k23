@@ -1,11 +1,11 @@
 import React,{Suspense} from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-import gltf from './assets/GLTF.jsx'
 import './EarthCanvas.css'
 
+
 const Earth = () => {
-  const earth = useGLTF(gltf.earth);
+  const earth = useGLTF('./models/planet/scene.gltf')
   earth.scene.scale.set(2,2,2)
 
   return <primitive object={earth.scene} />;

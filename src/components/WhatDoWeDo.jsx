@@ -84,7 +84,7 @@ export default function WhatDoWeDo() {
         ref={ref}
         animate={controls}
       >
-        <div className="text-overview">Overview.</div>
+        <div className="text-overview glow_text">Overview.</div>
       </motion.div>
 
       <FadeInFromTop delay={0.4}>

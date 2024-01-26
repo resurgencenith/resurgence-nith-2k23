@@ -10,7 +10,7 @@ export default function ContactUs() {
         
         <form className="contact-form">
           <div className="heading">
-            <h2>CONTACT US</h2>
+            <h2 className="glow_text">CONTACT US</h2>
             <p>feel free to reach out to us, we'd love to hear from you!</p>
           </div>
           <div className="input">
